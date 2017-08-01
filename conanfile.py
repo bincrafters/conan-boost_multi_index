@@ -20,7 +20,7 @@ class BoostMulti_IndexConan(ConanFile):
                       "Boost.Move/1.64.0@bincrafters/testing", \
                       "Boost.Mpl/1.64.0@bincrafters/testing", \
                       "Boost.Preprocessor/1.64.0@bincrafters/testing", \
-                      "Boost.Sesrialization/1.64.0@bincrafters/testing", \
+                      "Boost.Serialization/1.64.0@bincrafters/testing", \
                       "Boost.Smart_Ptr/1.64.0@bincrafters/testing", \
                       "Boost.Static_Assert/1.64.0@bincrafters/testing", \
                       "Boost.Throw_Exception/1.64.0@bincrafters/testing", \
