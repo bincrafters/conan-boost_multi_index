@@ -8,25 +8,25 @@ class BoostMulti_IndexConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["multi_index"]
-    requires =  "Boost.Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Bind/1.65.1@bincrafters/stable", \
-                      "Boost.Config/1.65.1@bincrafters/stable", \
-                      "Boost.Core/1.65.1@bincrafters/stable", \
-                      "Boost.Detail/1.65.1@bincrafters/stable", \
-                      "Boost.Foreach/1.65.1@bincrafters/stable", \
-                      "Boost.Functional/1.65.1@bincrafters/stable", \
-                      "Boost.Integer/1.65.1@bincrafters/stable", \
-                      "Boost.Iterator/1.65.1@bincrafters/stable", \
-                      "Boost.Move/1.65.1@bincrafters/stable", \
-                      "Boost.Mpl/1.65.1@bincrafters/stable", \
-                      "Boost.Preprocessor/1.65.1@bincrafters/stable", \
-                      "Boost.Serialization/1.65.1@bincrafters/stable", \
-                      "Boost.Smart_Ptr/1.65.1@bincrafters/stable", \
-                      "Boost.Static_Assert/1.65.1@bincrafters/stable", \
-                      "Boost.Throw_Exception/1.65.1@bincrafters/stable", \
-                      "Boost.Tuple/1.65.1@bincrafters/stable", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/stable", \
-                      "Boost.Utility/1.65.1@bincrafters/stable"
+    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Bind/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Detail/1.65.1@bincrafters/testing", \
+                      "Boost.Foreach/1.65.1@bincrafters/testing", \
+                      "Boost.Functional/1.65.1@bincrafters/testing", \
+                      "Boost.Integer/1.65.1@bincrafters/testing", \
+                      "Boost.Iterator/1.65.1@bincrafters/testing", \
+                      "Boost.Move/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
+                      "Boost.Serialization/1.65.1@bincrafters/testing", \
+                      "Boost.Smart_Ptr/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
+                      "Boost.Tuple/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
+                      "Boost.Utility/1.65.1@bincrafters/testing"
 
                       #assert1 bind3 config0 core2 detail5 foreach8 functional5 integer3 iterator5 move3 mpl5 preprocessor0 serialization11 smart_ptr4 static_assert1 throw_exception2 tuple4 type_traits3 utility5
                       
