@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostMulti_IndexConan(ConanFile):
     name = "boost_multi_index"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-multi_index"
+    url = "https://github.com/bincrafters/conan-boost_multi_index"
 
     lib_short_names = ["multi_index"]
     is_header_only = True
