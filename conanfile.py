@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/stable")
 
 class BoostMulti_IndexConan(base.BoostBaseConan):
     name = "boost_multi_index"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_multi_index"
     lib_short_names = ["multi_index"]
     header_only_libs = ["multi_index"]
